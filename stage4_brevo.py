@@ -2,7 +2,7 @@ import requests
 from config import BREVO_API_KEY
 
 SENDER_NAME = "Pushpa Kumari"
-SENDER_EMAIL = "pushpa@pushpa.space"
+SENDER_EMAIL = "pushpajagatha@gmail.com"
 
 def build_email_body(first_name, company_domain):
     return f"""Hi {first_name},
